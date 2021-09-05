@@ -29,8 +29,5 @@ f3 = fatorial(f3)
 rs = f1 / (f2 * f3)
 
 rs = int(rs)
-print('              {0}'.format(f2))
-print('C({0}, {1}) = ------------- = {2}'.format(times, timesSimul, rs))
-print('            {0}'.format(f3))
-print('Teremos um total de {} jogos'.format(rs))
 
+print('Teremos um total de {} jogos'.format(rs))
